@@ -1,0 +1,141 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: data/SAH-4_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 12
+Quality Phred score cutoff: 15
+Quality encoding type selected: ASCII+33
+Using Nextera adapter for trimming (count: 93). Second best hit was smallRNA (count: 1)
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 250 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.8.16
+Command line parameters: -j 12 -e 0.1 -q 15 -O 1 -a CTGTCTCTTATA data/SAH-4_1.fastq.gz
+Processing single-end reads on 12 cores ...
+Finished in 0.809 s (3.841 µs/read; 15.62 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 210,513
+Reads with adapters:                    15,044 (7.1%)
+Reads written (passing filters):       210,513 (100.0%)
+
+Total basepairs processed:    63,364,413 bp
+Quality-trimmed:                 419,882 bp (0.7%)
+Total written (filtered):     62,903,055 bp (99.3%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 15044 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 36.7%
+  C: 14.9%
+  G: 33.7%
+  T: 14.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8482	52628.2	0	8482
+2	3533	13157.1	0	3533
+3	2729	3289.3	0	2729
+4	168	822.3	0	168
+5	19	205.6	0	19
+6	5	51.4	0	5
+7	2	12.8	0	2
+20	1	0.0	1	1
+26	1	0.0	1	1
+29	2	0.0	1	2
+35	1	0.0	1	0 1
+36	2	0.0	1	0 2
+37	1	0.0	1	0 1
+39	1	0.0	1	0 1
+56	1	0.0	1	0 1
+64	1	0.0	1	0 1
+73	1	0.0	1	1
+78	4	0.0	1	4
+79	5	0.0	1	5
+80	1	0.0	1	1
+81	2	0.0	1	2
+90	3	0.0	1	2 1
+93	2	0.0	1	2
+95	3	0.0	1	3
+100	1	0.0	1	1
+102	1	0.0	1	1
+103	1	0.0	1	0 1
+105	1	0.0	1	1
+106	3	0.0	1	3
+109	1	0.0	1	1
+118	1	0.0	1	1
+121	1	0.0	1	1
+124	1	0.0	1	1
+126	1	0.0	1	1
+128	2	0.0	1	2
+130	1	0.0	1	1
+132	1	0.0	1	1
+139	2	0.0	1	2
+143	1	0.0	1	1
+149	1	0.0	1	1
+151	1	0.0	1	1
+157	1	0.0	1	1
+158	2	0.0	1	2
+170	1	0.0	1	1
+173	1	0.0	1	1
+183	1	0.0	1	1
+184	1	0.0	1	1
+185	1	0.0	1	0 1
+186	1	0.0	1	1
+191	1	0.0	1	1
+192	1	0.0	1	1
+202	2	0.0	1	2
+204	1	0.0	1	1
+205	2	0.0	1	1 1
+206	1	0.0	1	1
+212	1	0.0	1	1
+217	2	0.0	1	2
+219	2	0.0	1	2
+220	1	0.0	1	1
+222	1	0.0	1	1
+223	2	0.0	1	2
+224	1	0.0	1	1
+225	1	0.0	1	1
+226	1	0.0	1	1
+231	1	0.0	1	0 1
+233	1	0.0	1	1
+237	1	0.0	1	1
+238	1	0.0	1	1
+239	1	0.0	1	0 1
+241	1	0.0	1	1
+244	1	0.0	1	1
+248	1	0.0	1	1
+250	1	0.0	1	1
+263	1	0.0	1	1
+265	1	0.0	1	1
+274	1	0.0	1	1
+278	1	0.0	1	1
+281	1	0.0	1	1
+282	1	0.0	1	1
+283	2	0.0	1	2
+285	1	0.0	1	1
+287	2	0.0	1	2
+288	1	0.0	1	1
+290	3	0.0	1	3
+
+RUN STATISTICS FOR INPUT FILE: data/SAH-4_1.fastq.gz
+=============================================
+210513 sequences processed in total
+

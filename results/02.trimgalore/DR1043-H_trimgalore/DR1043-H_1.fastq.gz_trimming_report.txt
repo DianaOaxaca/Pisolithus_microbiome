@@ -1,0 +1,66 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: data/DR1043-H_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 12
+Quality Phred score cutoff: 15
+Quality encoding type selected: ASCII+33
+Using Nextera adapter for trimming (count: 2). Second best hit was smallRNA (count: 0)
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 250 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.8.16
+Command line parameters: -j 12 -e 0.1 -q 15 -O 1 -a CTGTCTCTTATA data/DR1043-H_1.fastq.gz
+Processing single-end reads on 12 cores ...
+Finished in 0.444 s (4.688 µs/read; 12.80 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  94,626
+Reads with adapters:                     5,304 (5.6%)
+Reads written (passing filters):        94,626 (100.0%)
+
+Total basepairs processed:    28,482,426 bp
+Quality-trimmed:                  84,940 bp (0.3%)
+Total written (filtered):     28,386,563 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 5304 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 50.5%
+  C: 8.1%
+  G: 30.8%
+  T: 10.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	2585	23656.5	0	2585
+2	1080	5914.1	0	1080
+3	886	1478.5	0	886
+4	722	369.6	0	722
+5	27	92.4	0	27
+24	1	0.0	1	0 1
+97	1	0.0	1	1
+114	1	0.0	1	1
+262	1	0.0	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: data/DR1043-H_1.fastq.gz
+=============================================
+94626 sequences processed in total
+

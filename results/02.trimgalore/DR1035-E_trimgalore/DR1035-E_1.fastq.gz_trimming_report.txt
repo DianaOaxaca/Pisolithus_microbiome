@@ -1,0 +1,83 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: data/DR1035-E_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 12
+Quality Phred score cutoff: 15
+Quality encoding type selected: ASCII+33
+Using Nextera adapter for trimming (count: 26). Second best hit was smallRNA (count: 0)
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 250 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.8.16
+Command line parameters: -j 12 -e 0.1 -q 15 -O 1 -a CTGTCTCTTATA data/DR1035-E_1.fastq.gz
+Processing single-end reads on 12 cores ...
+Finished in 0.424 s (4.657 µs/read; 12.88 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  91,016
+Reads with adapters:                     7,055 (7.8%)
+Reads written (passing filters):        91,016 (100.0%)
+
+Total basepairs processed:    27,395,816 bp
+Quality-trimmed:                  87,681 bp (0.3%)
+Total written (filtered):     27,292,342 bp (99.6%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 7055 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 49.6%
+  C: 10.5%
+  G: 19.2%
+  T: 20.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	3489	22754.0	0	3489
+2	968	5688.5	0	968
+3	2118	1422.1	0	2118
+4	437	355.5	0	437
+5	13	88.9	0	13
+6	3	22.2	0	3
+12	1	0.0	1	1
+13	1	0.0	1	1
+14	2	0.0	1	2
+17	2	0.0	1	2
+26	1	0.0	1	1
+30	1	0.0	1	1
+36	1	0.0	1	0 1
+39	1	0.0	1	1
+43	5	0.0	1	5
+78	1	0.0	1	1
+79	2	0.0	1	2
+80	1	0.0	1	1
+85	1	0.0	1	1
+86	1	0.0	1	1
+129	1	0.0	1	1
+153	1	0.0	1	1
+200	1	0.0	1	1
+205	1	0.0	1	1
+285	1	0.0	1	1
+291	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: data/DR1035-E_1.fastq.gz
+=============================================
+91016 sequences processed in total
+

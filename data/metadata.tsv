@@ -1,0 +1,84 @@
+sample-id	sample	Source	Date	Year	Location	Week	Total reads	Colect_number
+DR1014-E	DR1014-E	Stipe	sep-30	2021	Monte obscuro Emiliano Zapata	1	159896	DRamos 1014
+DR1041-E	DR1041-E	Stipe	oct-26	2021	El Castillo/Zentla	5	154884	DRamos 1041
+DR1045-E	DR1045-E	Stipe	oct-26	2021	El Castillo/Zentla	5	151162	DRamos 1045
+DR1047-E	DR1047-E	Stipe	oct-26	2021	El Castillo/Zentla	5	168228	DRamos 1047
+DR1048-E	DR1048-E	Stipe	oct-26	2021	El Castillo/Zentla	5	182892	DRamos 1048
+DR1018-E	DR1018-E	Stipe	oct-07	2021	Monte obscuro Emiliano Zapata	2	68578	DRamos 1018
+DR1019-E	DR1019-E	Stipe	oct-07	2021	Monte obscuro Emiliano Zapata	2	144270	DRamos 1019
+DR1025-E	DR1025-E	Stipe	oct-14	2021	Monte obscuro Emiliano Zapata	3	142622	DRamos 1025
+DR1027-E	DR1027-E	Stipe	oct-14	2021	Monte obscuro Emiliano Zapata	3	164732	DRamos 1027
+DR1030-E	DR1030-E	Stipe	oct-14	2021	Monte obscuro Emiliano Zapata	3	174886	DRamos 1030
+DR1035-E	DR1035-E	Stipe	oct-21	2021	Monte obscuro Emiliano Zapata	4	182032	DRamos 1035
+DR1042-E	DR1042-E	Stipe	oct-26	2021	El Castillo/Zentla	5	184348	DRamos 1042
+DR1043-E	DR1043-E	Stipe	oct-26	2021	El Castillo/Zentla	5	183260	DRamos 1043
+DR1044-E	DR1044-E	Stipe	oct-26	2021	El Castillo/Zentla	5	184192	DRamos 1044
+DR1046-E	DR1046-E	Stipe	oct-26	2021	El Castillo/Zentla	5	162534	DRamos 1046
+DR1049-E	DR1049-E	Stipe	oct-26	2021	El Castillo/Zentla	5	247528	DRamos 1049
+DR1041-H	DR1041-H	Rhizhomorph	oct-26	2021	El Castillo/Zentla	5	198760	DRamos 1041
+DR1043-H	DR1043-H	Rhizhomorph	oct-26	2021	El Castillo/Zentla	5	189252	DRamos 1043
+DR1045-H	DR1045-H	Rhizhomorph	oct-26	2021	El Castillo/Zentla	5	164924	DRamos 1045
+DR1046-H	DR1046-H	Rhizhomorph	oct-26	2021	El Castillo/Zentla	5	165980	DRamos 1046
+DR1047-H	DR1047-H	Rhizhomorph	oct-26	2021	El Castillo/Zentla	5	165194	DRamos 1047
+DR1048-H	DR1048-H	Rhizhomorph	oct-26	2021	El Castillo/Zentla	5	170314	DRamos 1048
+DR1027-H	DR1027-H	Rhizhomorph	oct-14	2021	Monte obscuro Emiliano Zapata	3	259464	DRamos 1027
+DR1035-H	DR1035-H	Rhizhomorph	oct-21	2021	Monte obscuro Emiliano Zapata	4	214944	DRamos 1035
+DR1042-H	DR1042-H	Rhizhomorph	oct-26	2021	El Castillo/Zentla	5	258996	DRamos 1042
+DR1049-H	DR1049-H	Rhizhomorph	oct-26	2021	El Castillo/Zentla	5	230820	DRamos 1049
+DR1014-SAH	DR1014-SAH	Soil associated	sep-30	2021	Monte obscuro Emiliano Zapata	1	223804	DRamos 1014
+DR1015-SAH	DR1015-SAH	Soil associated	sep-30	2021	Monte obscuro Emiliano Zapata	1	170670	DRamos 1015
+DR1018-SAH	DR1018-SAH	Soil associated	oct-07	2021	Monte obscuro Emiliano Zapata	2	211120	DRamos 1018
+DR1019-SAH	DR1019-SAH	Soil associated	oct-07	2021	Monte obscuro Emiliano Zapata	2	185380	DRamos 1019
+DR1020-SAH	DR1020-SAH	Soil associated	oct-07	2021	Monte obscuro Emiliano Zapata	2	181876	DRamos 1020
+DR1021-SAH	DR1021-SAH	Soil associated	oct-07	2021	Monte obscuro Emiliano Zapata	2	209606	DRamos 1021
+DR1025-SAH	DR1025-SAH	Soil associated	oct-14	2021	Monte obscuro Emiliano Zapata	3	226164	DRamos 1025
+DR1027-SAH	DR1027-SAH	Soil associated	oct-14	2021	Monte obscuro Emiliano Zapata	3	188024	DRamos 1027
+DR1028-SAH	DR1028-SAH	Soil associated	oct-14	2021	Monte obscuro Emiliano Zapata	3	170542	DRamos 1028
+DR1029-SAH	DR1029-SAH	Soil associated	oct-14	2021	Monte obscuro Emiliano Zapata	3	185952	DRamos 1029
+DR1030-SAH	DR1030-SAH	Soil associated	oct-14	2021	Monte obscuro Emiliano Zapata	3	172364	DRamos 1030
+DR1034-SAH	DR1034-SAH	Soil associated	oct-21	2021	Monte obscuro Emiliano Zapata	4	173828	DRamos 1034
+DR1035-SAH	DR1035-SAH	Soil associated	oct-21	2021	Monte obscuro Emiliano Zapata	4	193908	DRamos 1035
+DR1036-SAH	DR1036-SAH	Soil associated	oct-21	2021	Monte obscuro Emiliano Zapata	4	161916	DRamos 1036
+DR1038-SAH	DR1038-SAH	Soil associated	oct-21	2021	Monte obscuro Emiliano Zapata	4	173742	DRamos 1038
+DR1038-A-SAH	DR1038-A-SAH	Soil associated	oct-21	2021	Monte obscuro Emiliano Zapata	4	179986	DRamos 1038
+DR1039-SAH	DR1039-SAH	Soil associated	oct-21	2021	Monte obscuro Emiliano Zapata	4	164618	DRamos 1039
+DR1040-SAH	DR1040-SAH	Soil associated	oct-26	2021	El Castillo/Zentla	5	170988	DRamos 1040
+DR1041-SAH	DR1041-SAH	Soil associated	oct-26	2021	El Castillo/Zentla	5	151764	DRamos 1041
+DR1042-SAH	DR1042-SAH	Soil associated	oct-26	2021	El Castillo/Zentla	5	219244	DRamos 1042
+DR1043-SAH	DR1043-SAH	Soil associated	oct-26	2021	El Castillo/Zentla	5	166960	DRamos 1043
+DR1044-SAH	DR1044-SAH	Soil associated	oct-26	2021	El Castillo/Zentla	5	170538	DRamos 1044
+DR1045-SAH	DR1045-SAH	Soil associated	oct-26	2021	El Castillo/Zentla	5	186942	DRamos 1045
+DR1046-SAH	DR1046-SAH	Soil associated	oct-26	2021	El Castillo/Zentla	5	186080	DRamos 1046
+DR1047-SAH	DR1047-SAH	Soil associated	oct-26	2021	El Castillo/Zentla	5	177856	DRamos 1047
+DR1048-SAH	DR1048-SAH	Soil associated	oct-26	2021	El Castillo/Zentla	5	212318	DRamos 1048
+DR1049-SAH	DR1049-SAH	Soil associated	oct-26	2021	El Castillo/Zentla	5	192100	DRamos 1049
+E-1	E-1	Stipe	ago-08	2023	Naolinco	6	281262	DRamos
+E-2	E-2	Stipe	ago-08	2023	Naolinco	6	257930	DRamos
+E-3	E-3	Stipe	ago-08	2023	Naolinco	6	343020	DRamos
+E-4	E-4	Stipe	ago-10	2023	Naolinco	6	474632	DRamos
+E-5	E-5	Stipe	ago-10	2023	Naolinco	6	276584	DRamos
+E-6	E-6	Stipe	ago-28	2023	Naolinco	7	289870	DRamos
+E-7	E-7	Stipe	ago-28	2023	Naolinco	7	297668	DRamos
+E-8	E-8	Stipe	ago-28	2023	Naolinco	7	288130	DRamos
+E-9	E-9	Stipe	ago-28	2023	Naolinco	7	392038	DRamos
+E-10	E-10	Stipe	ago-28	2023	Naolinco	7	474660	DRamos
+H-1	H-1	Rhizhomorph	ago-08	2023	Naolinco	6	459838	DRamos
+H-2	H-2	Rhizhomorph	ago-08	2023	Naolinco	6	502928	DRamos
+H-3	H-3	Rhizhomorph	ago-08	2023	Naolinco	6	247372	DRamos
+H-4	H-4	Rhizhomorph	ago-10	2023	Naolinco	6	330292	DRamos
+H-5	H-5	Rhizhomorph	ago-10	2023	Naolinco	6	315106	DRamos
+H-6	H-6	Rhizhomorph	ago-28	2023	Naolinco	7	367938	DRamos
+H-7	H-7	Rhizhomorph	ago-28	2023	Naolinco	7	393038	DRamos
+H-8	H-8	Rhizhomorph	ago-28	2023	Naolinco	7	377596	DRamos
+H-9	H-9	Rhizhomorph	ago-28	2023	Naolinco	7	377710	DRamos
+H-10	H-10	Rhizhomorph	ago-28	2023	Naolinco	7	494312	DRamos
+SAH-1	SAH-1	Soil associated	ago-08	2023	Naolinco	6	386342	DRamos
+SAH-2	SAH-2	Soil associated	ago-08	2023	Naolinco	6	515502	DRamos
+SAH-3	SAH-3	Soil associated	ago-08	2023	Naolinco	6	343144	DRamos
+SAH-4	SAH-4	Soil associated	ago-10	2023	Naolinco	6	421026	DRamos
+SAH-5	SAH-5	Soil associated	ago-10	2023	Naolinco	6	431592	DRamos
+SAH-6	SAH-6	Soil associated	ago-28	2023	Naolinco	7	385060	DRamos
+SAH-7	SAH-7	Soil associated	ago-28	2023	Naolinco	7	367248	DRamos
+SAH-8	SAH-8	Soil associated	ago-28	2023	Naolinco	7	483236	DRamos
+SAH-9	SAH-9	Soil associated	ago-28	2023	Naolinco	7	364570	DRamos
+SAH-10	SAH-10	Soil associated	ago-28	2023	Naolinco	7	396842	DRamos

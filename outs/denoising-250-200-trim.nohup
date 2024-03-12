@@ -1,0 +1,3 @@
+Saved FeatureTable[Frequency] to: results/v2_250-200/feature-table_v2-250-200-trim.qza
+Saved FeatureData[Sequence] to: results/v2_250-200/rep-seqs-v2-250-200-trim.qza
+Saved SampleData[DADA2Stats] to: results/v2_250-200/denoising-stats_v2-250-200-trim.qza

@@ -1,0 +1,84 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: data/DR1046-E_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 12
+Quality Phred score cutoff: 15
+Quality encoding type selected: ASCII+33
+Using Nextera adapter for trimming (count: 6). Second best hit was smallRNA (count: 0)
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 250 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.8.16
+Command line parameters: -j 12 -e 0.1 -q 15 -O 1 -a CTGTCTCTTATA data/DR1046-E_2.fastq.gz
+Processing single-end reads on 12 cores ...
+Finished in 0.415 s (5.104 µs/read; 11.76 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  81,267
+Reads with adapters:                    66,732 (82.1%)
+Reads written (passing filters):        81,267 (100.0%)
+
+Total basepairs processed:    24,461,367 bp
+Quality-trimmed:                 713,120 bp (2.9%)
+Total written (filtered):     23,678,532 bp (96.8%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 66732 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 4.0%
+  C: 81.3%
+  G: 12.1%
+  T: 2.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	64726	20316.8	0	64726
+2	1473	5079.2	0	1473
+3	461	1269.8	0	461
+4	28	317.4	0	28
+5	25	79.4	0	25
+6	9	19.8	0	9
+7	2	5.0	0	2
+11	1	0.0	1	0 1
+12	1	0.0	1	1
+26	1	0.0	1	1
+28	1	0.0	1	1
+40	1	0.0	1	0 1
+44	1	0.0	1	1
+83	1	0.0	1	0 1
+111	1	0.0	1	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+
+RUN STATISTICS FOR INPUT FILE: data/DR1046-E_2.fastq.gz
+=============================================
+81267 sequences processed in total
+
+Total number of sequences analysed for the sequence pair length validation: 81267
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (250 bp): 4348 (5.35%)
