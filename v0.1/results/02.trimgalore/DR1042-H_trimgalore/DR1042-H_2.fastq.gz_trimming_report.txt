@@ -1,0 +1,126 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: data/DR1042-H_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 12
+Quality Phred score cutoff: 15
+Quality encoding type selected: ASCII+33
+Using Nextera adapter for trimming (count: 53). Second best hit was smallRNA (count: 1)
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 250 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.8.16
+Command line parameters: -j 12 -e 0.1 -q 15 -O 1 -a CTGTCTCTTATA data/DR1042-H_2.fastq.gz
+Processing single-end reads on 12 cores ...
+Finished in 0.588 s (4.540 µs/read; 13.22 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 129,498
+Reads with adapters:                   109,174 (84.3%)
+Reads written (passing filters):       129,498 (100.0%)
+
+Total basepairs processed:    38,978,898 bp
+Quality-trimmed:                 862,523 bp (2.2%)
+Total written (filtered):     37,995,862 bp (97.5%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 109174 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 3.2%
+  C: 82.9%
+  G: 12.0%
+  T: 1.9%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	106419	32374.5	0	106419
+2	1935	8093.6	0	1935
+3	678	2023.4	0	678
+4	42	505.9	0	42
+5	17	126.5	0	17
+6	16	31.6	0	16
+7	3	7.9	0	3
+9	1	0.5	0	0 1
+10	2	0.1	1	0 2
+25	1	0.0	1	1
+32	1	0.0	1	1
+36	1	0.0	1	0 1
+37	1	0.0	1	1
+38	1	0.0	1	1
+40	1	0.0	1	1
+47	1	0.0	1	1
+59	2	0.0	1	2
+77	1	0.0	1	0 1
+81	1	0.0	1	1
+82	5	0.0	1	4 1
+83	4	0.0	1	4
+84	3	0.0	1	3
+85	1	0.0	1	1
+86	1	0.0	1	0 1
+87	1	0.0	1	1
+88	1	0.0	1	1
+90	1	0.0	1	1
+92	1	0.0	1	1
+93	1	0.0	1	1
+96	1	0.0	1	1
+97	1	0.0	1	1
+98	1	0.0	1	1
+100	1	0.0	1	1
+104	1	0.0	1	1
+109	1	0.0	1	1
+117	1	0.0	1	1
+120	1	0.0	1	1
+121	1	0.0	1	1
+123	1	0.0	1	1
+126	1	0.0	1	1
+146	1	0.0	1	1
+156	1	0.0	1	1
+161	1	0.0	1	0 1
+189	1	0.0	1	1
+193	2	0.0	1	2
+198	1	0.0	1	1
+200	1	0.0	1	1
+204	1	0.0	1	1
+210	1	0.0	1	0 1
+216	1	0.0	1	1
+220	1	0.0	1	1
+223	2	0.0	1	2
+264	1	0.0	1	1
+286	1	0.0	1	1
+287	2	0.0	1	1 1
+288	1	0.0	1	1
+290	1	0.0	1	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+
+RUN STATISTICS FOR INPUT FILE: data/DR1042-H_2.fastq.gz
+=============================================
+129498 sequences processed in total
+
+Total number of sequences analysed for the sequence pair length validation: 129498
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (250 bp): 4978 (3.84%)

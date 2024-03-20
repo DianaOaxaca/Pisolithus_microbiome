@@ -1,0 +1,186 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: data/DR1027-E_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 12
+Quality Phred score cutoff: 15
+Quality encoding type selected: ASCII+33
+Using Nextera adapter for trimming (count: 433). Second best hit was Illumina (count: 0)
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 250 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.8.16
+Command line parameters: -j 12 -e 0.1 -q 15 -O 1 -a CTGTCTCTTATA data/DR1027-E_1.fastq.gz
+Processing single-end reads on 12 cores ...
+Finished in 0.418 s (5.072 µs/read; 11.83 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  82,366
+Reads with adapters:                     8,781 (10.7%)
+Reads written (passing filters):        82,366 (100.0%)
+
+Total basepairs processed:    24,792,166 bp
+Quality-trimmed:                  94,225 bp (0.4%)
+Total written (filtered):     24,641,121 bp (99.4%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 8781 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 51.7%
+  C: 16.7%
+  G: 16.9%
+  T: 14.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	3915	20591.5	0	3915
+2	1536	5147.9	0	1536
+3	2618	1287.0	0	2618
+4	177	321.7	0	177
+5	15	80.4	0	15
+6	2	20.1	0	2
+7	4	5.0	0	4
+9	8	0.3	0	8
+11	1	0.0	1	1
+12	15	0.0	1	14 1
+14	1	0.0	1	1
+15	8	0.0	1	8
+17	2	0.0	1	2
+18	1	0.0	1	0 1
+22	2	0.0	1	2
+24	1	0.0	1	1
+25	4	0.0	1	3 1
+26	13	0.0	1	9 4
+27	2	0.0	1	0 2
+29	1	0.0	1	1
+30	5	0.0	1	3 2
+31	3	0.0	1	3
+32	19	0.0	1	16 3
+33	1	0.0	1	1
+34	1	0.0	1	1
+35	1	0.0	1	0 1
+36	2	0.0	1	0 2
+38	5	0.0	1	5
+39	7	0.0	1	7
+40	4	0.0	1	2 2
+41	12	0.0	1	10 2
+42	51	0.0	1	46 5
+43	130	0.0	1	117 13
+44	8	0.0	1	8
+45	2	0.0	1	2
+46	2	0.0	1	2
+47	5	0.0	1	5
+49	5	0.0	1	3 2
+50	4	0.0	1	4
+58	1	0.0	1	1
+60	1	0.0	1	1
+61	4	0.0	1	4
+62	1	0.0	1	1
+63	3	0.0	1	2 1
+69	1	0.0	1	1
+70	3	0.0	1	3
+77	2	0.0	1	2
+78	22	0.0	1	20 2
+79	8	0.0	1	8
+80	4	0.0	1	4
+81	3	0.0	1	3
+82	6	0.0	1	6
+85	4	0.0	1	3 1
+86	4	0.0	1	3 1
+87	1	0.0	1	1
+88	3	0.0	1	3
+89	1	0.0	1	1
+90	3	0.0	1	2 1
+91	1	0.0	1	0 1
+95	3	0.0	1	3
+97	3	0.0	1	2 1
+99	1	0.0	1	1
+101	1	0.0	1	1
+102	2	0.0	1	2
+103	1	0.0	1	1
+104	2	0.0	1	1 1
+106	3	0.0	1	2 1
+108	1	0.0	1	1
+115	4	0.0	1	4
+116	1	0.0	1	1
+118	1	0.0	1	0 1
+123	1	0.0	1	1
+128	1	0.0	1	1
+131	2	0.0	1	2
+136	1	0.0	1	1
+138	1	0.0	1	1
+142	1	0.0	1	1
+144	1	0.0	1	1
+145	1	0.0	1	1
+156	1	0.0	1	0 1
+158	3	0.0	1	1 2
+161	1	0.0	1	1
+165	1	0.0	1	0 1
+169	1	0.0	1	0 1
+171	2	0.0	1	2
+176	1	0.0	1	0 1
+182	1	0.0	1	1
+183	1	0.0	1	1
+185	1	0.0	1	0 1
+189	2	0.0	1	2
+192	1	0.0	1	0 1
+195	1	0.0	1	1
+200	1	0.0	1	1
+204	1	0.0	1	0 1
+207	1	0.0	1	1
+208	2	0.0	1	0 2
+209	1	0.0	1	0 1
+210	1	0.0	1	1
+211	1	0.0	1	1
+213	1	0.0	1	1
+215	1	0.0	1	1
+218	1	0.0	1	0 1
+220	1	0.0	1	1
+225	2	0.0	1	2
+226	1	0.0	1	1
+238	1	0.0	1	1
+240	1	0.0	1	0 1
+243	1	0.0	1	1
+244	1	0.0	1	1
+245	1	0.0	1	1
+251	1	0.0	1	0 1
+252	1	0.0	1	1
+256	2	0.0	1	2
+259	1	0.0	1	1
+261	1	0.0	1	1
+271	1	0.0	1	1
+277	3	0.0	1	3
+279	1	0.0	1	1
+280	1	0.0	1	1
+281	1	0.0	1	1
+283	1	0.0	1	1
+284	1	0.0	1	1
+285	3	0.0	1	2 1
+286	1	0.0	1	1
+287	5	0.0	1	4 1
+288	14	0.0	1	11 3
+289	2	0.0	1	1 1
+290	1	0.0	1	1
+291	2	0.0	1	2
+
+RUN STATISTICS FOR INPUT FILE: data/DR1027-E_1.fastq.gz
+=============================================
+82366 sequences processed in total
+

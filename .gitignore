@@ -1,11 +1,9 @@
-Dada2.RData
-ancom.R
-pisolithus.Rmd
-pisolithus.Rproj
-pisolithus.html
+*.RData
+*.Rmd
 *.gz
 *.fastq
 *.biom
 *.zip
 *.qza
 *.R
+.Rproj.user

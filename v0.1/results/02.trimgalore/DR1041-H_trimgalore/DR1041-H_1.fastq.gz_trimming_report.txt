@@ -1,0 +1,73 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: data/DR1041-H_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 12
+Quality Phred score cutoff: 15
+Quality encoding type selected: ASCII+33
+Using Nextera adapter for trimming (count: 12). Second best hit was Illumina (count: 0)
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 250 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.8.16
+Command line parameters: -j 12 -e 0.1 -q 15 -O 1 -a CTGTCTCTTATA data/DR1041-H_1.fastq.gz
+Processing single-end reads on 12 cores ...
+Finished in 0.421 s (4.235 µs/read; 14.17 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  99,380
+Reads with adapters:                     4,743 (4.8%)
+Reads written (passing filters):        99,380 (100.0%)
+
+Total basepairs processed:    29,913,380 bp
+Quality-trimmed:                  71,428 bp (0.2%)
+Total written (filtered):     29,831,594 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 4743 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 41.9%
+  C: 9.9%
+  G: 30.6%
+  T: 17.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	2186	24845.0	0	2186
+2	1385	6211.2	0	1385
+3	1031	1552.8	0	1031
+4	111	388.2	0	111
+5	10	97.1	0	10
+6	8	24.3	0	8
+21	1	0.0	1	1
+40	1	0.0	1	1
+79	2	0.0	1	2
+83	2	0.0	1	2
+89	1	0.0	1	1
+165	1	0.0	1	1
+261	1	0.0	1	1
+287	1	0.0	1	1
+289	1	0.0	1	1
+291	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: data/DR1041-H_1.fastq.gz
+=============================================
+99380 sequences processed in total
+
